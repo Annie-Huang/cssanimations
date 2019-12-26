@@ -10,7 +10,11 @@ body {
     margin: auto;
     top: 200px;
     transition-property: background, border-radius;
-    transition-duration: 1s;
+    /*transition-duration: 1s;*/
+    transition-duration: 1s, 3s; // this means 1s for the background and 3s for the border-radius
+    /*transition-delay: 2s;*/
+    /*transition-delay: 2s, 4s;*/
+    transition-timing-function: ease-in;
 }
 
 /* Transition needs the trigger, which is usually hover, or an active state, or a focus state */
