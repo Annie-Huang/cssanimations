@@ -24,39 +24,67 @@ body {
     animation-fill-mode: forwards; // This is supposed to keep the end state stay like the 100%, circle shape. But it does not work here.
 }
 
+/*@keyframes myanimation {*/
+/*    0% {*/
+/*        background-color: white;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        border-radius: 0 0 0 0;*/
+/*    }*/
+
+/*    25% {*/
+/*        background-color: red;*/
+/*        left: 300px;*/
+/*        top: 0;*/
+/*        border-radius: 50% 0 0 0;*/
+/*    }*/
+
+/*    50% {*/
+/*        background-color: green;*/
+/*        left: 300px;*/
+/*        top: 300px;*/
+/*        border-radius: 50% 50% 0 0;*/
+/*    }*/
+
+/*    75% {*/
+/*        background-color: blue;*/
+/*        left: 0;*/
+/*        top: 300px;*/
+/*        border-radius: 50% 50% 50% 0;*/
+/*    }*/
+
+/*    100% {*/
+/*        background-color: white;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        border-radius: 50% 50% 50% 50%;*/
+/*    }*/
+/*}*/
+
+
 @keyframes myanimation {
     0% {
         background-color: white;
-        left: 0;
-        top: 0;
         border-radius: 0 0 0 0;
     }
 
     25% {
         background-color: red;
-        left: 300px;
-        top: 0;
         border-radius: 50% 0 0 0;
     }
 
     50% {
         background-color: green;
-        left: 300px;
-        top: 300px;
         border-radius: 50% 50% 0 0;
     }
 
     75% {
         background-color: blue;
-        left: 0;
-        top: 300px;
         border-radius: 50% 50% 50% 0;
     }
 
     100% {
         background-color: white;
-        left: 0;
-        top: 0;
         border-radius: 50% 50% 50% 50%;
     }
 }
