@@ -9,7 +9,8 @@ body {
     position: relative;
     margin: auto;
     top: 200px;
-    transition-property: background, border-radius, transform;
+    /*transition-property: background, border-radius, transform;*/
+    transition-property: all; /* All will just take all the properties listed in the changed state, e.g. :hover*/
     transition-duration: 1s;
     /*transition-duration: 1s, 3s; // this means 1s for the background and 3s for the border-radius*/
     /*transition-delay: 2s;*/
