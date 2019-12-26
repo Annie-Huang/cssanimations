@@ -9,6 +9,19 @@ body {
     position: relative;
     animation-name: myanimation;
     animation-duration: 4s;
+    animation-iteration-count: 1;
+    /*animation-iteration-count: infinite;*/
+
+    /*animation-delay: 2s;*/
+
+    /*animation-direction: reverse;*/
+    /*animation-direction: alternate;*/
+
+    /*animation-timing-function: linear;*/
+    /*animation-timing-function: ease-in; // Starting slow and ending fast.*/
+    animation-timing-function: ease-in-out; // Default. Start sllow and end slow.
+
+    animation-fill-mode: forwards; // This is supposed to keep the end state stay like the 100%, circle shape. But it does not work here.
 }
 
 @keyframes myanimation {
