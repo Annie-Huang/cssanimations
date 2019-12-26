@@ -59,6 +59,13 @@ body {
     animation-duration: 3s;
     animation-delay: 3s; /* we only want to show this after the title and content are slided into place */
     animation-fill-mode: forwards;
+
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    transform: rotateY(180deg);
 }
 
 @keyframes btn {
