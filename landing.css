@@ -35,6 +35,17 @@ body {
     100% {top: 200px}
 }
 
+#content {
+    position: relative;
+    animation-name: content; /* It seems animation-name is the same as animation */
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes content {
+    0%   {left: -1000px}
+    100% {left: 0}
+}
 
 
 
