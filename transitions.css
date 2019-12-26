@@ -9,17 +9,25 @@ body {
     position: relative;
     margin: auto;
     top: 200px;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
 }
 
 /* Transition needs the trigger, which is usually hover, or an active state, or a focus state */
 /* The transition properties need to be a property that has a identifiable half way points
-   e.g. like display, there is either a block or a none. There is no state in between
+   e.g. like display, it's NOT a transitional property.
+        There is either a block or a none. There is no state in between
         If you need the fade effect, you have to use opacity, not display
         (Maybe that is why the sevelt project FAB icon ease-in-out animation does not work.)
 */
 .box:hover {
+/* if I keep clicking inside the box */
+/*.box:active {*/
     background: red;
+    border-radius: 50%;
 }
+
+
 
 /*
 TRANSITIONAL PROPERTIES
